@@ -1,5 +1,5 @@
 1. Si parte da due dataset 
-    - `plays` → Artisti ascoltati per ogni utente
+    - `user_artists` → Artisti ascoltati per ogni utente
     - `artists` → Artisti del dataset, ascoltati e taggati dagli utenti
 2. Viene creato un nuovo DataFrame chiamato `ap`che contiene, per ogni ascolto registrato, sia i dettagli dell'utente e del conteggio (`userID`, `weight`) sia i dettagli dell'artista corrispondente (`id`, `name`, ecc.).
 3. Vengono fatti due ranking sfruttando `ap` :
